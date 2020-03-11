@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no" />
+    <script src="https://kit.fontawesome.com/4f82ce23a4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/main.css">
     <title>PLATTE</title>
 </head>
@@ -13,11 +14,36 @@
         <div class="contenedor">
             <div class="header__contenido">
                 <p class="logo">PLATTE</p>
+                <nav class="menu-desktop">
+                    <ul>
+                        <li class="active">Home</li>
+                        <li class="active">About</li>
+                        <li class="active">Contact</li>
+                    </ul>
+                </nav>
 
+                <nav class="menu-responsive">
+                    <ul>
+                        <li><i class="fas fa-bars" id="icono"></i></li>
+                    </ul>
+                </nav>
             </div>
 
         </div>
+
     </header>
+
+    <div class="enlances" id="enlances">
+
+        <ul>
+            <li><a href="">Home</a> </li>
+            <li><a href="">About</a> </li>
+            <li><a href="">Contact</a> </li>
+        </ul>
+
+
+    </div>
+
 
     <section class="banner">
         <div class="banner-description">
@@ -161,6 +187,7 @@
         </div>
 
     </footer>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
